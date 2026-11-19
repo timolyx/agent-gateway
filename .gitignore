@@ -1,0 +1,30 @@
+# 凭证与登录态：任何情况下都不要提交
+*.info
+*.token
+token.txt
+auth.json
+credentials.json
+.env
+.env.*
+!.env.example
+
+# 缓存与运行产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
